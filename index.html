@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Коллекция книг с разными изображениями</title>
- <script src="script.js"></script>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Коллекция книг с разными изображениями</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Плавающие фоновые книги -->
-  <div id="floating-books" aria-hidden="true"></div>
+<!-- Плавающие фоновые книги -->
+<div id="floating-books" aria-hidden="true"></div>
 
-  <header>
-    <h1>Коллекция книг с автографами</h1>
-    <p class="site-description">Эксклюзивная галерея редких рукописей и изданий для настоящих ценителей</p>
-  </header>
+<header>
+  <h1>Коллекция книг с автографами</h1>
+  <p class="site-description">Эксклюзивная галерея редких рукописей и изданий для настоящих ценителей</p>
+</header>
 
-  <main id="books-container" role="main" aria-label="Галерея книг"></main>
+<main id="books-container" role="main" aria-label="Галерея книг"></main>
 
-  <div class="modal-bg" id="modalBg" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
-    <div id="modal" class="modal" tabindex="0">
-      <button id="closeModal" class="close-modal" aria-label="Закрыть">&times;</button>
-      <img id="modalImg" class="modal-img" alt="" />
-      <div id="modalContent" class="modal-content">
-        <h2 id="modalTitle"></h2>
-        <div id="modalAuthor" class="modal-field"></div>
-        <div id="modalPublisher" class="modal-field"></div>
-        <div id="modalYear" class="modal-field"></div>
-        <div id="modalSubtitle" class="modal-field"></div>
-        <div id="modalInfo" class="modal-field"></div>
-      </div>
+<div class="modal-bg" id="modalBg" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+  <div id="modal" class="modal" tabindex="0">
+    <button id="closeModal" class="close-modal" aria-label="Закрыть">×</button>
+    <img id="modalImg" class="modal-img" alt="" />
+    <div id="modalContent" class="modal-content">
+      <h2 id="modalTitle"></h2>
+      <div id="modalAuthor" class="modal-field"></div>
+      <div id="modalPublisher" class="modal-field"></div>
+      <div id="modalYear" class="modal-field"></div>
+      <div id="modalSubtitle" class="modal-field"></div>
+      <div id="modalInfo" class="modal-field"></div>
     </div>
   </div>
+</div>
 
-  <script src="script.js"></script>
+<script src="scripts.js"></script>
+
 </body>
 </html>
